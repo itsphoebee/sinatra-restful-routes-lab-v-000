@@ -1,4 +1,6 @@
-
+<form method="post" action="/recipes">
+<input id ="hidden" type="hidden" name="_method" value="patch">
   <h2><%=@recipe.name%></h2>
   <h3><%=@recipe.ingredients%></h3>
   <p><%=@recipe.cook_time%> minutes</p></br>
+</form>
