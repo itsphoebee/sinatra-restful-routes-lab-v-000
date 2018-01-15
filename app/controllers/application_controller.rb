@@ -5,7 +5,7 @@ class ApplicationController < Sinatra::Base
     set :views, 'app/views'
   end
   get '/' do
-    erb :index
+    "Welcome to my recipe book!"
   end
 
   get '/recipes' do
