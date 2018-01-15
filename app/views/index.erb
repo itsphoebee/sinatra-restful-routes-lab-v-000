@@ -1,5 +1,4 @@
 <h1> See below for all of my recipes!</h1>
 <%@recipes.each do |recipe|%>
-  <h3><%=recipe.id%>.</h3>
-  <a href= "/recipes/<%=recipe.id%>"><p><%=recipe.name%></p></a>
+  <h3><%=recipe.id%>.</h3><a href= "/recipes/<%=recipe.id%>"><p><%=recipe.name%></p></a>
 <%end%>
