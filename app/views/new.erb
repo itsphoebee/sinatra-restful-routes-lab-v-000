@@ -1,6 +1,6 @@
 <form method="post" action="/recipes">
   <p> Recipe Name: <input type="text" name="name"></p>
   <p> Ingredients Needed: <input type="text" name="ingredients"></p>
-  <p> Cooktime: <input type="text" name="cook_time"></p>
+  <p> Cooktime: <%=@recipe.cook_time%> minutes <input type="text" name="cook_time"></p>
   <input type="submit" value="submit">
 </form>
