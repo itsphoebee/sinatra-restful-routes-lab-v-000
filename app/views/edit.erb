@@ -1,4 +1,4 @@
-<form method="post" action="/recipes/<%=@recipe.id%>/edit">
+<form method="post" action="/recipes/<%=@recipe.id%>">
   <input id="hidden" type="hidden" name="_method" value="patch">
   <p> Recipe Name: <%=@recipe.name%> <input type="text" name="name"></p>
   <p> Ingredients Needed: <%=@recipe.ingredients%> <input type="text" name="ingredients"></p>
