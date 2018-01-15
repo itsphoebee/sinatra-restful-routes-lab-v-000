@@ -5,7 +5,7 @@ class ApplicationController < Sinatra::Base
     set :views, 'app/views'
   end
   get '/' do
-    "Welcome to my recipe book!"
+    "Welcome to my recipe book! Navigate to /recipes to see all my recipes."
   end
 
   get '/recipes' do
